@@ -1,4 +1,4 @@
-# fcu_applied-mathematics
+# mega-works-fcuam
 
 測試站：https://h12732u.gitlab.io/fcu_applied-mathematics/#/
 正式站：http://www2.math.fcu.edu.tw/#/

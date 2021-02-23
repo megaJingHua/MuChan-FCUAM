@@ -294,7 +294,7 @@ export default {
 }
 
 .full-background {
-  background:url('/fcu_applied-mathematics/img/background.png');
+  background:url('/mega-works-fcuam/img/background.png');
   /* background:url('http://pic.616pic.com/bg_w1180/00/24/33/inntL1qbfn.jpg'); */
   background-repeat: no-repeat;
   background-attachment: fixed;
