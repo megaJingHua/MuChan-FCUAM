@@ -1,0 +1,9 @@
+{
+    "image":[
+        {"page": "1", "title":"", "content":"", "image":"../assets/carousel_2.jpg"},
+        {"page": "2", "title":"", "content":"", "image":"../assets/carousel_2.jpg"},
+        {"page": "3", "title":"", "content":"", "image":"../assets/carousel_3.jpg"},
+        {"page": "4", "title":"", "content":"", "image":"../assets/carousel_4.jpg"},
+        {"page": "5", "title":"", "content":"", "image":"../assets/carousel_3.jpg"}
+    ]
+}

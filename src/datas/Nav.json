@@ -1,0 +1,40 @@
+{
+    "title": "逢甲大學應用數學系",
+    "nav": [
+        {"menuName":"首頁"},
+        {"menuName":"最新消息"},
+        {"menuName":"關於本系","menuContent":[
+                {"name": "系史", "href": "./#/history"},
+                {"name": "特色", "href": "./#/characteristic"},
+                {"name": "教育目標", "href": "./#/goal"},
+                {"name": "核心能力", "href": "./#/capability"},
+                {"name": "獎學金", "href": "./#/scholarship"},
+                {"name": "本系亮點", "href": "./#/heightlight"}
+            ]},
+        {"menuName":"課程資訊","menuContent":[
+                {"name": "課程列表", "href": "./#/course"},
+                {"name": "學分學程", "href": "./#/program"},
+                {"name": "創新學制", "href": "http://140.134.140.35/news_pdf/Interdisciplinary_course.pdf"}
+            ]},
+        {"menuName":"招生資訊","menuContent":["大學部","碩士班"]},
+        {"menuName":"師資介紹","menuContent":[
+                {"name": "應數系", "href": "./#/teacher"},
+                {"name": "微積分中心","href": "./#/teacher_calculus"},
+                {"name": "系辦公室","href": "./#/teacher_office"}
+            ]},
+        {"menuName":"學生專區","menuContent":[
+                {"name":"逢甲人資訊服務入口", "href": "https://myfcu.fcu.edu.tw/main/infomyfculogin.aspx"},
+                {"name":"校園信箱", "href": "https://gomail.fcu.edu.tw/"},
+                {"name":"Learning Portfoilo", "href": "http://learningportfolio.fcu.edu.tw/tw/index.aspx"},
+                {"name":"逢甲大學課程檢索系統", "href": "https://coursesearch03.fcu.edu.tw/main.aspx"}
+            ]},
+        {"menuName":"微積分資源","menuContent":[
+            {"name":"微積分教學中心", "href": "https://sway.office.com/JuWlSNVfTcAbs7aS?ref=Link"},
+            {"name":"主題式動畫影音教學", "href": "http://140.134.140.30/~t97066/?ctNode=38709&idPath=5000_38705_38709"},
+            {"name":"工科微積分網路教學", "href": "http://140.134.140.84/teachingcalculus/?ctNode=38712&idPath=5000_38705_38712"},
+            {"name":"商科微積分網路教學", "href": "https://www.junyiacademy.org/many-great-teachers/feng-chia-calculus"},
+            {"name":"微積分動態教具", "href": "http://140.134.140.60/calculus-ggb/?ctNode=40542&idPath=5000_38705_40542"},
+            {"name":"微積總棟員", "href": "https://sites.google.com/site/calculusteaching/"}
+            ]}
+    ]
+}

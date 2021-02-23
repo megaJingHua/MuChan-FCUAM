@@ -1,0 +1,20 @@
+{ 
+  "datas":[
+    { 
+      "title": "【109學年】大數據分析與實務應用碩士學分學程必選修科目表",
+      "date": "2020-09-22",
+      "href": "http://web.registration.fcu.edu.tw/cls_data/program/109/109PC86300.pdf",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    },
+    { 
+      "title": "【108學年】大數據分析與實務應用碩士學分學程必選修科目表",
+      "date": "2019-01-23",
+      "href": "http://web.registration.fcu.edu.tw/cls_data/program/108/108PC86300.pdf",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    }
+  ]
+}

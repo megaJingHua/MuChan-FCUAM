@@ -1,0 +1,14 @@
+{
+  "datas":[
+    {
+      "title": "大學部",
+      "href": "university",
+      "content": "必選修科目表、雙主修學分表、輔系學分表"
+    },
+    {
+      "title": "碩士班",
+      "href": "master",
+      "content": "必選修科目表"
+    }
+  ]
+}

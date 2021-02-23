@@ -1,0 +1,46 @@
+{
+  "title": "系史",
+  "subTitle": "History",
+  "image": "1533556021909.jpg",
+  "text": "中華民國61年春，張校長希哲和廖教務長英鳴，慎密計畫，文送教育部申請設立逢甲應用數學系 *備註: 可以附上PDF原檔*",
+  "contents": [
+    {
+      "style": "accordion",
+      "title": "中華民國61年，教育部派了一位督學到逢甲查詢",
+      "content": "逢甲是否有設立數學系的必要？",
+      "image": "1533556021909.jpg",
+      "datas": [
+        {
+          "title": "逢甲是否有設立數學系的必要？",
+          "content": "逢甲各學系每系必修微積分 8 學分，合計需支援高等數學的專業科目學分十分繁重，必須有專人負責籌畫管理、研究支援，實有設立數學系的必要。",
+          "image": "23407215741_ed1acbc539_o.jpg"
+        },
+        {
+          "title": "為何設立應用數學系？",
+          "content": "數學為科學之母，這是眾人皆知的名言。只是有許多人一見數學便認為是門學術著作，而生排斥。殊不知在科學上，瞭解一門科學是一回事，要將它寫出來，又是另一回事，要用正確的數字來闡釋這觀念又可能費時甚久，仍不得要領。這時如果使上數學上的技巧、概念、定理等，就可使您得到最簡單、最清楚的結論，這些被用來解決科學上各種問題的數學，就是應用數學。",
+          "image": "23407215741_ed1acbc539_o.jpg"
+        }
+      ]
+    },
+    {
+      "style": "text",
+      "title": "是不是有些數學是沒有用的？",
+      "content": "這不一定，數學家 G.H.Hardy 稱這種數學為純數學，純數學可能一時找不出它的用途，但在數學的世界中，純數學像是一幅畫那麼美麗，像一首詩般含有高貴的情愫，一旦發現它的用途時，便稱為應用數學。應用數學亦可能需用特殊數學來解決問題，因此引伸出一系列的研究，而進入純數學的領域中。",
+      "image": "helloquence-5fNmWej4tAA-unsplash.jpg"
+    },
+    {
+      "style": "text",
+      "title": "逢甲應用數學系誕生",
+      "content": "張校長、廖教務長及多位老師對於上列提出的說明，均有徹底的瞭解，於是在民國61年5月11日獲得教育部台高 10854 號文核准逢甲自61學年度起設應用數學系，招收新生一班 60 人，於是逢甲應用數學系就在張校長任內誕生了。",
+      "image": "23407215741_ed1acbc539_o.jpg"
+    }
+  ],
+  "history": [
+    {
+      "title": "應用數學系大小事!",
+      "content": "歷任主管介紹、師資、傑出教師、大事記、本系專任教師兼任其他單位主管",
+      "image":["Math_history01.jpg","Math_history02.jpg","Math_history03.jpg","Math_history04.jpg","Math_history05.jpg","Math_history06.jpg","Math_history07.jpg","Math_history08.jpg","Math_history09.jpg","Math_history10.jpg","Math_history11.jpg","Math_history12.jpg","Math_history13.jpg","Math_history14.jpg","Math_history15.jpg","Math_history16.jpg","Math_history17.jpg","Math_history18.jpg","Math_history19.jpg","Math_history20.jpg","Math_history21.jpg","Math_history22.jpg","Math_history23.jpg","Math_history24.jpg","Math_history25.jpg"],
+      "file":["Math_history1090203.pdf","tt"]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{ 
+  "datas":[
+    { 
+      "title": "【109學年】必選修科目表",
+      "date": "",
+      "href": "http://www.math.fcu.edu.tw/news_pdf/109CS01100.pdf",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    },
+    { 
+      "title": "【109學年】輔系/輔修學分表",
+      "date": "",
+      "href": "http://www.math.fcu.edu.tw/news_pdf/2109CS01100fusi.pdf",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    },
+    { 
+      "title": "【109學年】雙主修/第二主修學分表",
+      "date": "",
+      "href": "http://www.math.fcu.edu.tw/news_pdf/1109CS01100susi.pdf",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    },
+    { 
+      "title": "【106~108學年】必選修科目表",
+      "date": "",
+      "href": "http://www.registration.fcu.edu.tw/wSite/lp?ctNode=14812&mp=211101&idPath=10588_14796",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    },
+    { 
+      "title": "【106~108學年】輔系/輔修學分表",
+      "date": "",
+      "href": "http://www.registration.fcu.edu.tw/wSite/lp?ctNode=14814&mp=211101&idPath=10588_14796",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    },
+    { 
+      "title": "【106~108學年】雙主修/第二主修學分表",
+      "date": "",
+      "href": "http://www.registration.fcu.edu.tw/wSite/lp?ctNode=14813&mp=211101&idPath=10588_14796",
+      "content": "",
+      "image":["",""],
+      "file":["tt","tt"]
+    }
+  ]
+}

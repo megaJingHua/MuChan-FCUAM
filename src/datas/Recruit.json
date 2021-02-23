@@ -1,0 +1,40 @@
+{
+    "datas":[
+        {
+            "title":"大學部招生",
+            "href":"university",
+            "content":"University's Department",
+            "video":["XCviMxk78vM"],
+            "inner": [
+                {
+                    "title": "本系課程區分",
+                    "date": "",
+                    "content":"《哈佛商業評論》將數據科學家譽為「21世紀最性感工作」，市調機構 IDC 也預測大數據市場在未來的驚人成長，為因應全球產業數位轉型及新興產業發展對數據科學人力需求殷切，本系將課程區分為「計算科學與金融應用」與「數據科學與智慧應用」兩大主軸，課程流程圖如下：",
+                    "image":"[\"1577067361369.jpg\"]",
+                    "href": "./#/article?recruit&text&university&index=0"
+                },
+                {
+                    "title": "臺灣最佳大學排行榜",
+                    "content": "《遠見》雜誌7月1日公布2019「臺灣最佳大學排行榜」，逢甲大學在綜合類大學中位居全國十一；其中私校前五名當中，逢甲大學是唯一沒有醫學相關科系的綜合大學，在評比上能名列前茅，實屬難得。此外，校長互評辦學績效部分，逢甲大學更獲選為私校第一，辦學聲望廣受肯定。",
+                    "image":"[\"recruit_universty01.jpeg\",\"recruit_universty02.jpeg\"]",
+                    "href": "./#/article?recruit&text&university&index=1"
+                }
+            ]
+        },
+        {
+            "title":"碩士班招生",
+            "href":"master",
+            "content":"Master's Department",
+            "video": ["3-E_daxi2ZE"],
+            "inner": [
+                {
+                    "title": "104升學就業地圖",
+                    "content":"數學及統計學門(研究所)",
+                    "image": "",
+                    "href": "https://www.104.com.tw/jb/career/department/navigation?browser=2&degree=2&mid=46"
+                }
+            ]
+        }
+    ]
+
+}

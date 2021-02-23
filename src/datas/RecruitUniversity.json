@@ -1,0 +1,60 @@
+{ 
+    "datas":[
+      { 
+        "title": "110申請入學書審資料參考檔案下載",
+        "date": "2021-01-13",
+        "content": "<ul><li><a href=\"http://www.math.fcu.edu.tw/news_word/%E6%9B%B8%E5%AF%A9%E8%B3%87%E6%96%99-%E8%AE%80%E6%9B%B8%E8%A8%88%E7%95%AB.doc\" target=\"_blank\">書審資料-讀書計畫.doc</a></li><li><a href=\"http://www.math.fcu.edu.tw/news_word/%E6%9B%B8%E5%AF%A9%E8%B3%87%E6%96%99-%E8%87%AA%E5%82%B3.doc\" target=\"_blank\">書審資料-自傳.doc</a></li><li><a href=\"http://www.math.fcu.edu.tw/news_word/%E6%9B%B8%E5%AF%A9%E8%B3%87%E6%96%99-%E5%AD%B8%E7%BF%92%E6%AA%94%E6%A1%88.docx\" target=\"_blank\">書審資料-學習檔案.docx</a></li></ul>",
+        "image":["",""],
+        "file":["","tt"]
+      },
+      { 
+        "title": "110學年度繁星與個人申請分則",
+        "date": "2020-11-14",
+        "content": "<h3>個人申請</h3><img src=\"http://www.math.fcu.edu.tw/am/api/recruit/recruit_img/110%E5%80%8B%E7%94%B3%E6%A0%A1%E7%B3%BB%E5%88%86%E5%89%87_%E9%80%A2%E7%94%B2%E6%87%89%E6%95%B8.jpg\" style=\"width:100%\" / ><h3>繁星推薦</h3><img src=\"http://www.math.fcu.edu.tw/am/api/recruit/recruit_img/110%E7%B9%81%E6%98%9F%E6%A0%A1%E7%B3%BB%E5%88%86%E5%89%87_%E9%80%A2%E7%94%B2%E6%87%89%E6%95%B8.jpg\" style=\"width:100%\" / >",
+        "image":["",""],
+        "file":["","tt"]
+      },
+      { 
+        "title": "109學年度入學資訊專區",
+        "date": "2020-03-03",
+        "content": "點擊查看：<a href=\"https://109.math.fcu.edu.tw\">109學年度入學資訊</a>",
+        "image":["",""],
+        "file":["","tt"]
+      },
+      { 
+        "title": "109學年度逢甲大學應用數學系入學",
+        "date": "2020-02-04",
+        "content": "<ul><li><a href=\"http://campus4.ncku.edu.tw/uac/cross_search/dept_info/01521.html\" target=\"_blank\"> 考試分發(A組)</a></li><li><a href=\" http://campus4.ncku.edu.tw/uac/cross_search/dept_info/01537.html \" target=\"_blank\"> 考試分發(B組)</a></li><li><a href=\" https://www.cac.edu.tw/star109/system/109ColQry6d3k_forstar_583vd/html/109_01527.htm \" target=\"_blank\"> 繁星推薦</a></li><li><a href=\" https://www.cac.edu.tw/apply109/system/109ColQrytk4p_forapply_os92k5w/html/109_015072.htm \" target=\"_blank\"> 個人申請</a></li></ul>",
+        "image":["",""],
+        "file":["tt","tt"]
+      },
+      { 
+        "title": "逢甲大學應用數學系轉系須知",
+        "date": "2019-02-18",
+        "content": "點擊查看：<a href=\" http://www.math.fcu.edu.tw/wSite/public/Data/f1550446972987.pdf \" target=\"_blank\"> 逢甲大學應用數學系轉系須知</a>",
+        "image":["",""],
+        "file":["tt","tt"]
+      },
+      { 
+        "title": "108學年度逢甲大學應用數學系考試分發入學分則 ", 
+        "date": "2019-02-14",
+        "content": "點擊查看：<a href=\"http://www.math.fcu.edu.tw/wSite/public/Data/f1550113390166.pdf\" target=\"_blank\">考試分發入學分則</a>",
+        "image":["",""],
+        "file":["tt","tt"]
+      },
+      { 
+        "title": "108學年度逢甲大學應用數學系繁星申請入學分則", 
+        "date": "2019-01-10",
+        "content": "點擊查看：<a href=\"http://www.math.fcu.edu.tw/wSite/public/Data/f1547109605625.pdf\" target=\"_blank\"> 繁星申請入學分則</a>",
+        "image":["",""],
+        "file":["tt","tt"] 
+      },
+      {  
+        "title": "108學年度逢甲大學應用數學系個人申請入學分則 ", 
+        "date": "2019-01-10",
+        "content": "點擊查看：<a href=\"http://www.math.fcu.edu.tw/wSite/public/Data/f1547109225015.pdf\" target=\"_blank\">個人申請入學分則</a>",
+        "image":["",""],
+        "file":["tt","tt"] 
+      }
+    ]
+  }
