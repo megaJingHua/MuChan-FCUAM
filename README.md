@@ -1,40 +1,24 @@
-# mega-works-fcuam
-
-測試站：https://h12732u.gitlab.io/fcu_applied-mathematics/#/
-正式站：http://www2.math.fcu.edu.tw/#/
-
-## 色碼：
-+ Yellow #fec526
-+ Green # 00b1b0
-+ Blue #01a5d9
-+ Orange #f29439
-+ Gray #efece4
-
-## 套件：
-vue-router
-animate.css
+# fcu-frontend
 
 ## Project setup
 ```
-npm install
+yarn install
 ```
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+yarn serve
 ```
 
 ### Compiles and minifies for production
 ```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
+yarn build
 ```
 
 ### Lints and fixes files
 ```
-npm run lint
+yarn lint
 ```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

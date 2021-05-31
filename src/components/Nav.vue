@@ -1,104 +1,139 @@
 <template>
-<div>
-  <b-navbar  toggleable="sm" type="dark" variant="light" fixed="top" id="nav_bar" >
-    <!-- 標題 -->
-    <b-navbar-brand class="animated jackInTheBox" href="./#/" ><p class="title">{{navData.title}}</p></b-navbar-brand>
-    <!-- 選單按鈕 -->
-    <b-navbar-toggle type="light" align="left" target="nav-collapse"  v-if="navButton"></b-navbar-toggle>
-    <!-- 選單內容 -->
-    <b-collapse id="nav-collapse" is-nav v-if="navButton">
-      <b-navbar-nav >
-        <!-- 首頁 -->
-        <!-- <b-nav-item class="animated zoomIn" :href="'./#/'+this.homePage">{{navData.nav[0].menuName}}</b-nav-item> -->
-        <!-- 最新消息 -->
-        <b-nav-item class="animated zoomIn" href="./#/news">{{navData.nav[1].menuName}}</b-nav-item>
-        <!-- 招生資訊 -->
-        <b-nav-item class="animated zoomIn" href="./#/recruit" >{{navData.nav[4].menuName}}</b-nav-item>
-        <!-- 關於本系 -->
-        <b-nav-item-dropdown text="關於本系" class="animated zoomIn" toggle-class="text-light">
-          <li v-for="nav in navData.nav[2].menuContent" :key='nav.menuName' >
-            <b-dropdown-item v-bind:href="nav.href">{{nav.name}}</b-dropdown-item>
-          </li>
-        </b-nav-item-dropdown>
-        <!-- 課程規劃 -->
-        <b-nav-item-dropdown text="課程規劃" class="animated zoomIn" toggle-class="text-light">
-          <li v-for="nav in navData.nav[3].menuContent" :key='nav.menuName' >
-            <b-dropdown-item v-bind:href="nav.href">{{nav.name}}</b-dropdown-item>
-          </li>
-        </b-nav-item-dropdown>
-        <!-- 師資介紹 -->
-        <b-nav-item class="animated zoomIn" href="./#/teacher" >{{navData.nav[5].menuName}}</b-nav-item>
-        <!-- 學生專區 -->
-        <b-nav-item-dropdown text="學生專區" class="animated zoomIn" toggle-class="text-light">
-          <li v-for="nav in navData.nav[6].menuContent" :key='nav.menuName' >
-            <b-dropdown-item v-bind:href="nav.href">{{nav.name}}</b-dropdown-item>
-          </li>
-        </b-nav-item-dropdown>
-        <!-- 微積分資源 -->
-        <b-nav-item-dropdown text="微積分資源" class="animated zoomIn" toggle-class="text-light">
-          <li v-for="nav in navData.nav[7].menuContent" :key='nav.menuName' >
-            <b-dropdown-item v-bind:href="nav.href">{{nav.name}}</b-dropdown-item>
-          </li>
-        </b-nav-item-dropdown>  
-                <b-nav-item class="animated zoomIn" target="_blank" href="https://www.facebook.com/groups/681977315178475"><i class="fa fa-facebook-square fa-2x" style="color:white"></i></b-nav-item>
-      </b-navbar-nav>
-      <b-col>
-      </b-col>
-    </b-collapse>
-  </b-navbar>
-</div>
+  <el-menu class="el-menu-demo hidden-md-and-down" mode="horizontal">
+    <div @click="changePage('/')">
+      <el-image
+        style="width: 300px; margin: 2px 0px"
+        :src="require('@/assets/logo.png')"
+      ></el-image>
+    </div>
+    <el-menu-item index="1"><div @click="changePage('/news')">+ 最新消息</div></el-menu-item>
+    <el-menu-item index="2"
+      ><div @click="changePage('/recruit')">+ 招生資訊</div></el-menu-item
+    >
+    <el-submenu index="3">
+      <template slot="title">+ 關於本系</template>
+      <el-menu-item index="3-1"><div @click="changePage('/history')">系史</div></el-menu-item>
+      <el-menu-item index="3-2"><div @click="changePage('/characteristic')">特色</div></el-menu-item>
+      <el-menu-item index="3-3"><div @click="changePage('/goal')">教育目標</div></el-menu-item>
+      <el-menu-item index="3-4"><div @click="changePage('/capability')">核心能力</div></el-menu-item>
+      <el-menu-item index="3-5"><div @click="changePage('/scholarship')">獎學金</div></el-menu-item>
+      <el-menu-item index="3-6"><div @click="changePage('/highlight')">本系亮點</div></el-menu-item>
+    </el-submenu>
+    <el-submenu index="4">
+      <template slot="title">+ 課程規劃</template>
+      <el-menu-item index="4-1"><div @click="changePage('/course')">課程列表</div></el-menu-item>
+      <el-menu-item index="4-2"><div @click="changePage('/program')">學分學程</div></el-menu-item>
+      <el-menu-item index="4-3"><div @click="changePage('/innovation')">創新學制</div></el-menu-item>
+    </el-submenu>
+    <el-menu-item index="5"><div @click="changePage('/teacher')">+ 師資介紹</div></el-menu-item>
+    <el-submenu index="6">
+      <template slot="title">+ 學生專區</template>
+      <el-menu-item index="6-1"
+        ><a
+          href="https://myfcu.fcu.edu.tw/main/infomyfculogin.aspx"
+          target="_blank"
+          >逢甲人資訊服務入口</a
+        ></el-menu-item
+      >
+      <el-menu-item index="6-2"
+        ><a href="https://gomail.fcu.edu.tw/" target="_blank"
+          >校園信箱</a
+        ></el-menu-item
+      >
+      <el-menu-item index="6-3"
+        ><a
+          href="http://learningportfolio.fcu.edu.tw/tw/index.aspx"
+          target="_blank"
+          >Learning Portfoilo</a
+        ></el-menu-item
+      >
+      <el-menu-item index="6-4"
+        ><a href="https://coursesearch03.fcu.edu.tw/main.aspx" target="_blank"
+          >逢甲大學課程檢索系統</a
+        ></el-menu-item
+      >
+    </el-submenu>
+    <el-submenu index="7">
+      <template slot="title">+ 微積分資源</template>
+      <el-menu-item index="7-1"
+        ><a
+          href="https://sway.office.com/JuWlSNVfTcAbs7aS?ref=Link"
+          target="_blank"
+          >微積分教學中心</a
+        ></el-menu-item
+      >
+      <el-menu-item index="7-2"
+        ><a
+          href="http://140.134.140.30/~t97066/?ctNode=38709&idPath=5000_38705_38709"
+          target="_blank"
+          >主題式動畫影音教學</a
+        ></el-menu-item
+      >
+      <el-menu-item index="7-3"
+        ><a
+          href="http://140.134.140.84/teachingcalculus/?ctNode=38712&idPath=5000_38705_38712"
+          target="_blank"
+          >工科微積分網路教學</a
+        ></el-menu-item
+      >
+      <el-menu-item index="7-4"
+        ><a
+          href="https://www.junyiacademy.org/many-great-teachers/feng-chia-calculus"
+          target="_blank"
+          >商科微積分網路教學</a
+        ></el-menu-item
+      >
+      <el-menu-item index="7-5"
+        ><a
+          href="http://140.134.140.60/calculus-ggb/?ctNode=40542&idPath=5000_38705_40542"
+          target="_blank"
+          >微積分動態教具</a
+        ></el-menu-item
+      >
+      <el-menu-item index="7-6"
+        ><a
+          href="https://sites.google.com/site/calculusteaching/"
+          target="_blank"
+          >微積總棟員</a
+        ></el-menu-item
+      >
+    </el-submenu>
+  </el-menu>
 </template>
-
 <script>
-import navData from '../datas/Nav.json'
 export default {
-  props: {
-    navButton: {
-      type: Boolean,
-      default: true
-    }
-  },
-  data () {
-    return {
-      navData,
-      homePage:''
-    }
-  },
   methods: {
-    eventHomePage: function () {
-      this.homePage = localStorage.homePage;
-    }
+    changePage(router) {
+      window.scrollTo(0, 0);
+      if (this.$route.path !== router) {
+        this.$router.push({ path: router });
+      }
+    },
   },
-  mounted () {
-    this.eventHomePage();
-  }
-}
+};
 </script>
 <style scoped>
-span {
-  color:white;
+.el-menu-demo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 5px solid #376c8a;
 }
-#nav_bar{
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -webkit-box-shadow: 0 4px 30px -5px rgba(0,0,0,.05);
-  box-shadow: 0 4px 30px -5px rgba(0,0,0,.05);
-  background: #4b2e83 !important;
+/* 未連結 */
+a:link {
+  color: #909399;
+  text-decoration: none;
 }
-.title{
-  color:white;
-  font-size: 115%;
-  font-weight: 400;
-  margin: 0px;
-  text-align:center;
+/* 已連結過 */
+a:visited {
+  color: #909399;
 }
-.subtitle{
-  color:white!important;
-  font-size: 75% !important;
-  margin: 0px;
-  text-align:center;
+/* 滑鼠移至連結 */
+a:hover {
+  color: #303133;
 }
-.navbar-dark .navbar-nav .nav-link{
-  color:white!important
+/* 選擇的連結 */
+a:active {
+  color: #303133;
 }
 </style>
